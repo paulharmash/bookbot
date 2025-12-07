@@ -15,9 +15,9 @@ def text_input():
 # Function to convert a text in a string
 def get_book_text(path):
     with open(path) as f:
-        return f.read() # Returns the text as a string
+        return f.read() 
 
-#Function to print results in the console    
+# Function to print results in the console    
 def print_report(path, num_words, sorted_chars):
     print(f"============ BOOKBOT ============\nAnalyzing book found at {path}...\n----------- Word Count ----------")
     print(f"Found {num_words} total words")
